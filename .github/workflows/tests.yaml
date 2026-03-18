@@ -628,7 +628,7 @@ jobs:
           dag_tarball_version_before: ${{ steps.get-deployment-before.outputs.desired_dag_tarball_version }}
           image_version_before: ${{ steps.get-deployment-before.outputs.desired_image_version }}
           hibernation_spec_before: ${{ steps.get-deployment-before.outputs.hibernation_spec }}
-          dag_tarball_version_after: ${{ steps.get-deployment-after.outputs.desiredDagTarballVersion }}
+          dag_tarball_version_after: ${{ steps.get-deployment-after.outputs.desired_dag_tarball_version }}
           image_version_after: ${{ steps.get-deployment-after.outputs.desired_image_version }}
           hibernation_spec_after: ${{ steps.get-deployment-after.outputs.hibernation_spec }}
 
